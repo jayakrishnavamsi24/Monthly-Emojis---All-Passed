@@ -374,7 +374,7 @@ class MonthlyEmojis extends Component {
               <li>
                 <p>Sat</p>
               </li>
-            <
+            </ul>
             <ul className="dates-list">
               {datesList.map(eachDateItem => (
                 <DateItem
