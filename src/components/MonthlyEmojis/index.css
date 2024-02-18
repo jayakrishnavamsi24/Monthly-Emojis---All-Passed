@@ -1,0 +1,141 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/monthly-emojis/monthly-emojis-bg.png ');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  color: #ffbe38;
+  margin-bottom: 80px;
+  font-size: 30px;
+}
+
+.bottom-container {
+  width: 100%;
+  max-width: 740px;
+  display: flex;
+  height: 300px;
+}
+
+.calendar-container {
+  background-color: #343243;
+  width: 55%;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.bottom-right-container {
+  width: 45%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.emojis-container {
+  background-color: #343243;
+  height: 48%;
+  border-radius: 20px;
+  padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.filter-container {
+  background-color: #343243;
+  height: 48%;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.emojis-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+  color: #ffffff;
+}
+
+.filters-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+select {
+  background-color: #42404d;
+  border: 1px solid #4e5d72;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 5px 5px;
+  width: 130px;
+}
+
+.emojis-count {
+  text-align: center;
+  color: #ffffff;
+}
+
+.month-name {
+  text-align: center;
+  font-size: 15px;
+}
+
+.days-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.days-list > li {
+  width: 40px;
+  text-align: center;
+}
+
+.dates-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dates-list > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  height: 26px;
+  margin-right: 5px;
+  margin-left: 6px;
+  width: 40px;
+  margin-bottom: 10px;
+  background-color: #42404d;
+}
+
+.dates-list > li > button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.dates-list > li > button > img {
+    width: 16px;
+    margin-left: 2px;
+}
