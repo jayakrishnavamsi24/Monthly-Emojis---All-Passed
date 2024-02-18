@@ -15,12 +15,12 @@ const EmojiItem = props => {
 
   return (
     <li className="emoji-item">
-      <p className={`emoji-name ${activeEmojiNameStyle}`}>{emojiName}</p>{' '}
       <button
         onClick={changeActiveEmoji}
         type="button"
         className={`emoji-btn ${activeButtonStyle}`}
       >
+        <p className={`emoji-name ${activeEmojiNameStyle}`}>{emojiName}</p>{' '}
         <img className="emoji-img" src={emojiUrl} alt={emojiName} />
       </button>
     </li>

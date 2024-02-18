@@ -353,14 +353,28 @@ class MonthlyEmojis extends Component {
           <div className="calendar-container">
             <h1 className="month-name"> January</h1>
             <ul className="days-list">
-              <li>Sun</li>
-              <li>Mon</li>
-              <li>Tue</li>
-              <li>Wed</li>
-              <li>Thu</li>
-              <li>Fri</li>
-              <li>Sat</li>
-            </ul>
+              <li>
+                <p>Sun</p>
+              </li>
+              <li>
+                <p>Mon</p>
+              </li>
+              <li>
+                <p>Tue</p>
+              </li>
+              <li>
+                <p>Wed</p>
+              </li>
+              <li>
+                <p>Thu</p>
+              </li>
+              <li>
+                <p>Fri</p>
+              </li>
+              <li>
+                <p>Sat</p>
+              </li>
+            <
             <ul className="dates-list">
               {datesList.map(eachDateItem => (
                 <DateItem
